@@ -4,7 +4,13 @@ body{
     color: #3d3232;
 }
 
+html, body{
+    width:100%;
+}
+
 .navbar{
+    position: fixed;
+    top:0;
     width: 100%;
     background-color: #e01f1f;
     font-size: 1.25rem;
@@ -12,4 +18,19 @@ body{
     color: #efebea;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     padding: 3px 10px;
+    margin-bottom:25px;
+}
+
+.navContent{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.bodyContainer {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.first {
+    margin-top: 110px;
 }
