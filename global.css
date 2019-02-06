@@ -1,7 +1,15 @@
+body{
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    font-size: 1.125rem;
+    color: #3d3232;
+}
+
 .navbar{
+    width: 100%;
     background-color: #e01f1f;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     line-height: 3.4375rem;
     color: #efebea;
-    
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    padding: 3px 10px;
 }
