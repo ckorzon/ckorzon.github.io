@@ -8,6 +8,10 @@ html, body{
     width:100%;
 }
 
+html{
+    background-color: #302c2c;
+}
+
 .navbar{
     position: fixed;
     top:0;
@@ -19,11 +23,25 @@ html, body{
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     padding: 3px 10px;
     margin-bottom:25px;
+    box-shadow: 0 4px 3px rgba(0,0,0,.5);
 }
 
 .navContent{
     max-width: 1080px;
     margin: auto;
+}
+
+.navContent ul{
+    list-style:none;
+}
+
+.navContent ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.white{
+    background-color: #efebea;
 }
 
 .bodyContainer {
