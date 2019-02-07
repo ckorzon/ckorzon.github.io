@@ -1,11 +1,13 @@
 body{
-    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    /* font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif; */
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
     font-size: 1.125rem;
-    color: #3d3232;
+    color: #0c0c0c;
 }
 
 html, body{
     width:100%;
+    margin:0;
 }
 
 html{
@@ -33,22 +35,44 @@ html{
 
 .navContent ul{
     list-style:none;
+    display: inline;
+}
+
+.navContent ul li{
+    display: inline;
+    border: 1px solid #efebea;
+    margin: 0 10px 0 0;
+    padding: 10px 5px;
 }
 
 .navContent ul li a{
     text-decoration: none;
-    color: white;
+    color: #efebea;
 }
 
 .white{
     background-color: #efebea;
+    border-left: 5px solid #e01f1f;
+    border-right: 5px solid #e01f1f;
+    box-shadow: 0 4px 8px #000;
 }
 
 .bodyContainer {
     max-width: 1080px;
     margin: auto;
+    padding: 10px 20px;
 }
 
 .first {
     margin-top: 110px;
+}
+
+.welcomeBox{
+    padding:2rem;
+    border-radius:16px;
+    background-image: linear-gradient(to top,#600303,#db0404);
+    max-width:700px;
+    margin:110px auto 20px auto;
+    padding:10px 20px;
+    box-shadow: 0 4px 8px #000;
 }
