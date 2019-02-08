@@ -5,6 +5,10 @@ body{
     color: #0c0c0c;
 }
 
+.alternateFont{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
 html, body{
     width:100%;
     margin:0;
@@ -18,9 +22,10 @@ html{
     position: fixed;
     top:0;
     width: 100%;
-    background-color: #e01f1f;
+    background-color: #db0404;
     font-size: 1.25rem;
-    line-height: 3.4375rem;
+    /* line-height: 3.4375rem; */
+    height: 3.3rem;
     color: #efebea;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     padding: 3px 10px;
@@ -30,7 +35,7 @@ html{
 
 .navContent{
     max-width: 1080px;
-    margin: auto;
+    margin: 12px auto 0 auto;
 }
 
 .navContent ul{
@@ -40,27 +45,51 @@ html{
 
 .navContent ul li{
     display: inline;
-    border: 1px solid #efebea;
+    /* border: 1px solid #efebea; */
     margin: 0 10px 0 0;
-    padding: 10px 5px;
+    padding: 10px 5px 0px 5px;
 }
 
 .navContent ul li a{
     text-decoration: none;
     color: #efebea;
+    /* border-bottom: 2px solid #efebea; */
+}
+
+.link{
+    position:relative;
+}
+
+.link:after{
+    content:'';
+    position: absolute;
+    width:0;
+    height:3px;
+    display:block;
+    margin-top:5px;
+    right:0;
+    transition: width .5s ease;
+    -webkit-transition: width .2s ease;
+}
+
+.link:hover:after{
+    width: 100%;
+    left: 0;
+    background: #fff;
 }
 
 .white{
     background-color: #efebea;
-    border-left: 5px solid #e01f1f;
-    border-right: 5px solid #e01f1f;
+    border-left: 5px solid #db0404;
+    border-right: 5px solid #db0404;
     box-shadow: 0 4px 8px #000;
 }
 
 .bodyContainer {
-    max-width: 1080px;
+    max-width: 900px;
     margin: auto;
     padding: 10px 20px;
+    margin-bottom:20px;
 }
 
 .first {
@@ -68,6 +97,26 @@ html{
 }
 
 .welcomeBox{
+    padding:2rem;
+    max-width:900px;
+    margin: 110px auto 20px auto;
+}
+
+.welcomeText{
+    margin:auto;
+    font-size: 8em;
+    color:white;
+    border-bottom: 5px solid #db0404;
+}
+
+.subText{
+    font-size: 2em;
+    color: #efd7d7;
+    margin:auto;
+    padding-top: 15px;
+}
+
+.gradBox{
     padding:2rem;
     border-radius:16px;
     background-image: linear-gradient(to top,#600303,#db0404);
