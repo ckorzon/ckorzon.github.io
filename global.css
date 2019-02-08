@@ -15,7 +15,8 @@ html, body{
 }
 
 html{
-    background-color: #302c2c;
+    /* background-color: #302c2c; */
+    background-image: linear-gradient(to top,#0c0c0c,#302c2c);
 }
 
 .navbar{
@@ -90,6 +91,14 @@ html{
     margin: auto;
     padding: 10px 20px;
     margin-bottom:20px;
+}
+
+.bodyContainer h2{
+    border-bottom: 2px solid #db0404;
+}
+
+.bodyContainer p{
+    line-height:1.4;
 }
 
 .first {
