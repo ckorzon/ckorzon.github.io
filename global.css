@@ -141,6 +141,16 @@ html{
     box-shadow: 0 4px 8px #000;
 }
 
+.quoteBox{
+    margin: 0 auto;
+    padding:5px;
+    font-size:2em;
+    /* font-style: italic; */
+    text-align:center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #db0404;
+}
+
 footer{
     position:absolute;
     bottom:0;
