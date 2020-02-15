@@ -125,8 +125,8 @@ html{
 }
 
 .subText{
-    font-size: 2em;
-    color: #efd7d7;
+    font-size: 1.5em;
+    color: #e1e1e3;
     margin:auto;
     padding-top: 15px;
 }
@@ -147,7 +147,7 @@ html{
     font-size:2em;
     /* font-style: italic; */
     text-align:center;
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Courier New, monospace;
     color: #db0404;
 }
 
